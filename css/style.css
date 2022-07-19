@@ -1,0 +1,60 @@
+.d-flex {
+  display: flex;            
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.label {
+  display: inline-block;
+  width: 150px;          
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mbot-10 {
+  margin-bottom: 10px;
+}
+
+.gender-option {
+  width: 25%;
+  justify-content:space-between
+}
+
+table, thead, tbody, td, th {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 25px;
+}
+
+.mtop-10 {
+  margin-top: 10px;
+}
+
+.search-box {
+  position: relative;
+  width: 250px;
+}
+
+.icon-search {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.alert {
+  color: red !important;
+}

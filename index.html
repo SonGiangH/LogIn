@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div class="container">
+            <div class="home-page">
+                <h3 class="align-center">HOME PAGE</h3>
+                <div class="content d-flex j-around">
+                    <div class="get-user">
+                        <button class="btn-get">Get User</button>
+                    </div>
+                    <div class="log-in">
+                        <button class="btn-logIn">Log In</button>
+                    </div>
+                </div>
+            </div>
+            
+            <h3>Sign Up</h3>
+            <!-- Form sign up -->
+            <form action="" class="user-form">
+                <div class="d-flex mbot-10">
+                    <div class="label">
+                        <label for="">User Name</label>
+                    </div>
+    
+                    <div class="input-area">
+                        <input type="text" id="user-name" value="" placeholder>
+                    </div>
+                </div>
+                <div class="d-flex mbot-10">
+                    <div class="label">
+                        <label for="">Password</label>
+                    </div>
+    
+                    <div class="input-area">
+                        <input type="text" id="user-password" value="" placeholder>
+                    </div>
+                </div>
+                <div class="d-flex mbot-10">
+                    <div class="label">
+                        <label for="">First Name</label>
+                    </div>
+    
+                    <div class="input-area">
+                        <input type="text" id="user-firstName" value="" placeholder>
+                    </div>
+                </div>
+                <div class="d-flex mbot-10">
+                    <div class="label">
+                        <label for="">Last Name</label>
+                    </div>
+                    <div class="input-area">
+                        <input type="text" id="user-lastName" value="" placeholder>
+                    </div>
+                </div>    
+                <button class="btn-submit">Sign up new user</button>
+            </form>
+            <!-- end of form -->
+
+            <!-- form upload avatar -->
+            <div class="d-flex mbot-10">                
+                <form class="upload-form">
+                    <input type="file" name="avatar" id="avatar">
+                    <button type="submit" id="btn-submitAvatar">Upload Avatar</button>
+                </form>                
+            </div>   
+            <!-- end of form upload avatar -->
+        </div>
+    </div>
+
+    <!-- add Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
+    <!-- axios library -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
